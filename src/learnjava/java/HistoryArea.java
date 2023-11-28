@@ -1,3 +1,4 @@
+package learnjava.java;
 public class HistoryArea
 {
     private String lastArea= new String();

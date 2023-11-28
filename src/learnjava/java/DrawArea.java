@@ -1,3 +1,4 @@
+package learnjava.java;
 public class DrawArea
 {
     public void drawAreaNow(char[][] area)

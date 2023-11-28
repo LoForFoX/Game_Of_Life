@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package learnjava.java;
 
+import java.util.Scanner;
 
 public class Main
 {
@@ -92,7 +93,7 @@ public class Main
                 {
                     Thread.sleep(250);
                 }
-                catch(InterruptedException e)   {   }
+                catch(InterruptedException ignored)   {   }
                 System.out.println("\n\n\n\n\nТекущее поколение: "+currentGeneration);
                 area = draw.updateArea(area);
                 currentGeneration++;
